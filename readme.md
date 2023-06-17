@@ -6,7 +6,7 @@ More details on : https://www.cnihackathon.in/
 ### Background
 - We have a dataset containing information about the buses travelling in Bengaluru. We have obtained it from Bengaluru Metropolitan Transport Corporation (BMTC).
 - The region of interest is an approximately 40km by 40km square area. See the following figure:  
-![BMTC bus tracking](images/RegionOfInterest.png)
+![BMTC bus tracking](./images/RegionOfInterest.png)
 - The data was collected from around two thousand buses for one day, between 7:00am to 7:00pm.
 - The buses follow different routes within the city.
 - Each bus is identified with a unique ID. A bus carries a device which records the data: latitude, longitude, speed, and timestamp.
