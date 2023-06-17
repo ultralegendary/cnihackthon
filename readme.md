@@ -6,7 +6,7 @@ More details on : https://www.cnihackathon.in/
 ### Background
 - We have a dataset containing information about the buses travelling in Bengaluru. We have obtained it from Bengaluru Metropolitan Transport Corporation (BMTC).
 - The region of interest is an approximately 40km by 40km square area. See the following figure:  
-![BMTC bus tracking](images/RegionOfInterest.png)
+![BMTC bus tracking](https://github.com/ultralegendary/cnihackthon/blob/main/images/RegionOfInterest.png?raw=true)
 - The data was collected from around two thousand buses for one day, between 7:00am to 7:00pm.
 - The buses follow different routes within the city.
 - Each bus is identified with a unique ID. A bus carries a device which records the data: latitude, longitude, speed, and timestamp.
@@ -117,7 +117,7 @@ Top 5 entries of `BMTC.parquet.gzip`
 
 The attached screen shots are created with the help of [Tableau](https://www.tableau.com/products/desktop) and some in python.  
 **A scatter plot on latitude and longitude**
-![Scatter plot of latitude and longitude](https://github.com/ultralegendary/cnihackthon/blob/main/images/bus_routes.png?raw=true)
+![Scatter plot of latitude and longitude](images/bus_routes.png)
 
 **Specefic bus routes**
 ![Specefic bus routes ploted with latitude and longitude](https://github.com/ultralegendary/cnihackthon/blob/main/images/specific_bus_routes.png?raw=true)
