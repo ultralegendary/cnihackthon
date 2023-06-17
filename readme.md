@@ -6,7 +6,7 @@ More details on : https://www.cnihackathon.in/
 ### Background
 - We have a dataset containing information about the buses travelling in Bengaluru. We have obtained it from Bengaluru Metropolitan Transport Corporation (BMTC).
 - The region of interest is an approximately 40km by 40km square area. See the following figure:  
-![BMTC bus tracking](./images/RegionOfInterest.PNG)
+![BMTC bus tracking](./images/RegionOfInterest.png)
 - The data was collected from around two thousand buses for one day, between 7:00am to 7:00pm.
 - The buses follow different routes within the city.
 - Each bus is identified with a unique ID. A bus carries a device which records the data: latitude, longitude, speed, and timestamp.
@@ -117,30 +117,30 @@ Top 5 entries of `BMTC.parquet.gzip`
 
 The attached screen shots are created with the help of [Tableau](https://www.tableau.com/products/desktop) and some in python.  
 **A scatter plot on latitude and longitude**
-![Scatter plot of latitude and longitude](images/bus_routes.png)
+![Scatter plot of latitude and longitude](./images/bus_routes.png)
 
 **Specefic bus routes**
-![Specefic bus routes ploted with latitude and longitude](https://github.com/ultralegendary/cnihackthon/blob/main/images/specific_bus_routes.png?raw=true)
+![Specefic bus routes ploted with latitude and longitude](./images/specific_bus_routes.png)
 
 **Speed distribution of Buses**
-![Speed distribution of buses](https://github.com/ultralegendary/cnihackthon/blob/main/images/Speed_Distribution.png?raw=true)
+![Speed distribution of buses](./images/SpeedDistribution.png)
 
 **Bus speed count**  
 Annotation shows that with speed of 5.0, there is 101,885 entries in the dataset with 1919 uniques buses reaches this speed
-![Bus speed count](https://github.com/ultralegendary/cnihackthon/blob/main/images/bus_speed_count_explanation.png?raw=true)
+![Bus speed count](./images//BusSpeedCountExplanation.png)
 
 **Time series of bus speed**
 This plot shows the time series of bus speed.  
-![Time series of bus speed](https://github.com/ultralegendary/cnihackthon/blob/main/images/Bus_speed_time_series.png?raw=true)
+![Time series of bus speed](./images/BusSpeedTimeSeries.png)
 
 **Bus stop location**
 This plot shows the bus stop location, which is source-destination pairs from Input.csv.
-![Bus stop location](https://github.com/ultralegendary/cnihackthon/blob/main/images/bus_stops.png?raw=true)
+![Bus stop location](./images/BusStops.png)
 
 **Plot of high speed buses**
 This plot shows the high speed buses, latitude and longitude of buses that reaches speed above 80.0.
-![Plot of high speed buses](https://github.com/ultralegendary/cnihackthon/blob/main/images/high_speed_bus_areas.png?raw=true)
+![Plot of high speed buses](./images/HighSpeedBusAreas.png)
 
 **Plot of medium speed buses**
 This plot shows the medium speed buses, latitude and longitude of buses that reaches speed between 40.0 and 80.0.
-![Plot of medium speed buses](https://github.com/ultralegendary/cnihackthon/blob/main/images/medium_speed_bus_areas.png?raw=true)
+![Plot of medium speed buses](./images/MediumSpeedBusAreas.png)
