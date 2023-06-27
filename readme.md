@@ -148,7 +148,7 @@ This plot shows the medium speed buses, latitude and longitude of buses that rea
 
 **Source-Destination Pairs**
 This plot shows the filtered source-destination pairs from Input.csv.
-![Source-Destination Pairs](./images/SourceDestinationPairs2.png)
+![Source-Destination Pairs](images/SourceDestinationPairs2.png)
 
 ## Data Preprocessing
 ### Handeling Outliers
