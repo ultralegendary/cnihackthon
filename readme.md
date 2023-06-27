@@ -154,4 +154,6 @@ This plot shows the filtered source-destination pairs from Input.csv.
 ### Handeling Outliers
 Buses with extreme speeds!
 <!-- ![Buses with extreme speeds](./images/Extreme_speeds.png) -->
-![BusStops](https://github.com/ultralegendary/cnihackthon/assets/67859954/a2773356-e8c6-4415-aa38-f4a2eb9845cb)
+<!--![BusStops](https://github.com/ultralegendary/cnihackthon/assets/67859954/a2773356-e8c6-4415-aa38-f4a2eb9845cb)-->
+![BusSpeedCount](https://github.com/ultralegendary/cnihackthon/assets/67859954/4206d3d0-7d6d-4bd6-bc96-70362b09d5af)
+
