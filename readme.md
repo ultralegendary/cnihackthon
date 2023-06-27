@@ -1,6 +1,7 @@
 # CNI hackthon
 This repo is a recreation of the datascience task asked in CNI hackthon 2022  
 More details on : https://www.cnihackathon.in/
+Model is built in colab https://colab.research.google.com/drive/1vELqWdkCxJGzaCG-yz5VVqR7XXjyC4Nk
 
 ## Problem definition
 ### Background
@@ -144,3 +145,13 @@ This plot shows the high speed buses, latitude and longitude of buses that reach
 **Plot of medium speed buses**
 This plot shows the medium speed buses, latitude and longitude of buses that reaches speed between 40.0 and 80.0.
 ![Plot of medium speed buses](./images/MediumSpeedBusAreas.png)
+
+**Source-Destination Pairs**
+This plot shows the filtered source-destination pairs from Input.csv.
+![Source-Destination Pairs](./images/SourceDestinationPairs2.png)
+
+## Data Preprocessing
+### Handeling Outliers
+Buses with extreme speeds!
+<!-- ![Buses with extreme speeds](./images/Extreme_speeds.png) -->
+![BusStops](https://github.com/ultralegendary/cnihackthon/assets/67859954/a2773356-e8c6-4415-aa38-f4a2eb9845cb)
