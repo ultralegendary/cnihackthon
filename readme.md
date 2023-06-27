@@ -6,8 +6,9 @@ Model is built in colab https://colab.research.google.com/drive/1vELqWdkCxJGzaCG
 ## Problem definition
 ### Background
 - We have a dataset containing information about the buses travelling in Bengaluru. We have obtained it from Bengaluru Metropolitan Transport Corporation (BMTC).
-- The region of interest is an approximately 40km by 40km square area. See the following figure:  
-![BMTC bus tracking](./images/RegionOfInterest.png)
+- The region of interest is an approximately 40km by 40km square area. See the following figure:
+  ![RegionOfInterest](https://github.com/ultralegendary/cnihackthon/assets/67859954/548c7ad6-c898-4910-b739-dd8cfe36ac85)
+
 - The data was collected from around two thousand buses for one day, between 7:00am to 7:00pm.
 - The buses follow different routes within the city.
 - Each bus is identified with a unique ID. A bus carries a device which records the data: latitude, longitude, speed, and timestamp.
@@ -118,42 +119,42 @@ Top 5 entries of `BMTC.parquet.gzip`
 
 The attached screen shots are created with the help of [Tableau](https://www.tableau.com/products/desktop) and some in python.  
 **A scatter plot on latitude and longitude**
-![Scatter plot of latitude and longitude](./images/bus_routes.png)
+![BusRoutes](https://github.com/ultralegendary/cnihackthon/assets/67859954/599821fa-6dda-401e-bc48-73d6289703f7)
 
 **Specefic bus routes**
-![Specefic bus routes ploted with latitude and longitude](./images/specific_bus_routes.png)
+![SpecificBusRoutes](https://github.com/ultralegendary/cnihackthon/assets/67859954/2dfb3113-3f50-4534-baa5-fd512f267e5e)
 
 **Speed distribution of Buses**
-![Speed distribution of buses](./images/SpeedDistribution.png)
+![SpeedDistribution](https://github.com/ultralegendary/cnihackthon/assets/67859954/c2c31ef3-1dca-4810-ab8c-a06d628a2bbc)
 
 **Bus speed count**  
 Annotation shows that with speed of 5.0, there is 101,885 entries in the dataset with 1919 uniques buses reaches this speed
-![Bus speed count](./images//BusSpeedCountExplanation.png)
+![BusSpeedCountExplanation](https://github.com/ultralegendary/cnihackthon/assets/67859954/04a647a5-8f1a-4f1c-9cbd-7079008ad858)
 
 **Time series of bus speed**
 This plot shows the time series of bus speed.  
-![Time series of bus speed](./images/BusSpeedTimeSeries.png)
+![BusSpeedTimeSeries](https://github.com/ultralegendary/cnihackthon/assets/67859954/b19e3b3f-e3c1-46eb-a88e-3c590dce9f0c)
 
 **Bus stop location**
 This plot shows the bus stop location, which is source-destination pairs from Input.csv.
-![Bus stop location](./images/BusStops.png)
+![BusStops](https://github.com/ultralegendary/cnihackthon/assets/67859954/3525d002-9828-451c-90a9-8a19f1352b55)
 
 **Plot of high speed buses**
 This plot shows the high speed buses, latitude and longitude of buses that reaches speed above 80.0.
-![Plot of high speed buses](./images/HighSpeedBusAreas.png)
+![HighSpeedBusAreas](https://github.com/ultralegendary/cnihackthon/assets/67859954/9681a8f5-65b8-4439-9ec6-9088b169f67a)
 
 **Plot of medium speed buses**
 This plot shows the medium speed buses, latitude and longitude of buses that reaches speed between 40.0 and 80.0.
-![Plot of medium speed buses](./images/MediumSpeedBusAreas.png)
+![MediumSpeedBusAreas](https://github.com/ultralegendary/cnihackthon/assets/67859954/fd4b806d-611b-479a-97b1-d9201af9013d)
 
 **Source-Destination Pairs**
 This plot shows the filtered source-destination pairs from Input.csv.
-![Source-Destination Pairs](images/SourceDestinationPairs2.png)
+![SourceDestinationPairs2](https://github.com/ultralegendary/cnihackthon/assets/67859954/8f03e818-321a-4b9d-941e-f21870ea6aa0)
 
 ## Data Preprocessing
 ### Handeling Outliers
 Buses with extreme speeds!
 <!-- ![Buses with extreme speeds](./images/Extreme_speeds.png) -->
-<!--![BusStops](https://github.com/ultralegendary/cnihackthon/assets/67859954/a2773356-e8c6-4415-aa38-f4a2eb9845cb)-->
-![BusSpeedCount](https://github.com/ultralegendary/cnihackthon/assets/67859954/4206d3d0-7d6d-4bd6-bc96-70362b09d5af)
+![Extreme_speeds](https://github.com/ultralegendary/cnihackthon/assets/67859954/632033dd-e641-445f-aa8d-1d512578c8c9)
+
 
